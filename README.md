@@ -21,7 +21,7 @@ Add the following dependency to your project's `pom.xml` file:
 ### Step 2: Application Configuration
 In your application's main class annotated with @SpringBootApplication, ensure that you include the com.EncryptionMasking.Encryption_Masking package in the scanBasePackages attribute:
 
-```xml
+```java
 @SpringBootApplication(scanBasePackages = {"Base Package", "com.recur.EncryptionMasking"})
 public class YourApplication {
     // Your application code
@@ -31,7 +31,7 @@ public class YourApplication {
 Once the dependency is added and the application is configured, you can utilize the @EncryptedField and @MaskedField annotations in your project. Simply annotate the fields you want to encrypt or mask with the appropriate annotation and the Encryption-Masking custom jar will handle the rest.
 
 
-```xml
+```java
 import com.recur.EncryptionMasking.EncryptedField;
 import com.recur.EncryptionMasking.MaskedField;
 
