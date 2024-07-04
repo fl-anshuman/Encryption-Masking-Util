@@ -12,8 +12,8 @@ Add the following dependency to your project's `pom.xml` file:
 
 ```xml
 <dependency>
-    <groupId>com.EncryptionMasking</groupId>
-    <artifactId>Encryption-Masking</artifactId>
+    <groupId>com.recur</groupId>
+    <artifactId>EncryptionMasking</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
@@ -22,7 +22,7 @@ Add the following dependency to your project's `pom.xml` file:
 In your application's main class annotated with @SpringBootApplication, ensure that you include the com.EncryptionMasking.Encryption_Masking package in the scanBasePackages attribute:
 
 ```xml
-@SpringBootApplication(scanBasePackages = {"Base Package", "com.EncryptionMasking.Encryption_Masking"})
+@SpringBootApplication(scanBasePackages = {"Base Package", "com.recur.EncryptionMasking"})
 public class YourApplication {
     // Your application code
 }
@@ -32,8 +32,8 @@ Once the dependency is added and the application is configured, you can utilize 
 
 
 ```xml
-import com.EncryptionMasking.Encryption_Masking.EncryptedField;
-import com.EncryptionMasking.Encryption_Masking.MaskedField;
+import com.recur.EncryptionMasking.EncryptedField;
+import com.recur.EncryptionMasking.MaskedField;
 
 public class User {
     @EncryptedField
