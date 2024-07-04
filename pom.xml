@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.EncryptionMasking</groupId>
-	<artifactId>Encryption-Masking</artifactId>
+	<groupId>com.recur</groupId>
+	<artifactId>EncryptionMasking</artifactId>
 	<version>1.0.0</version>
 	<name>Encryption-Masking</name>
 	<description>project for data encryption and masking</description>
