@@ -1,6 +1,6 @@
-package com.EncryptionMasking.Encryption_Masking.config;
+package com.recur.EncryptionMasking.config;
 
-import com.EncryptionMasking.Encryption_Masking.interceptors.MaskingInterceptor;
+import com.recur.EncryptionMasking.interceptors.MaskingInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

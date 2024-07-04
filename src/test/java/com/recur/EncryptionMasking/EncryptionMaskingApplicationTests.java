@@ -1,4 +1,4 @@
-package com.EncryptionMasking.Encryption_Masking;
+package com.recur.EncryptionMasking;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

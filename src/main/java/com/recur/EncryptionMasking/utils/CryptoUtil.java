@@ -1,4 +1,4 @@
-package com.EncryptionMasking.Encryption_Masking.utils;
+package com.recur.EncryptionMasking.utils;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;

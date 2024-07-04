@@ -1,7 +1,7 @@
-package com.EncryptionMasking.Encryption_Masking.interceptors;
+package com.recur.EncryptionMasking.interceptors;
 
-import com.EncryptionMasking.Encryption_Masking.annotation.MaskedField;
-import com.EncryptionMasking.Encryption_Masking.utils.MaskingUtil;
+import com.recur.EncryptionMasking.annotation.MaskedField;
+import com.recur.EncryptionMasking.utils.MaskingUtil;
 import jakarta.servlet.http.HttpServletRequest;
 //import org.CRUD.Learning.annotation.MaskedField;
 //import org.CRUD.Learning.utils.MaskingUtil;

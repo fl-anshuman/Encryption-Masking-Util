@@ -1,4 +1,4 @@
-package com.EncryptionMasking.Encryption_Masking.annotation;
+package com.recur.EncryptionMasking.annotation;
 
 public enum MaskingStrategy {
     EMAIL,

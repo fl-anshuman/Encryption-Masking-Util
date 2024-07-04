@@ -1,4 +1,4 @@
-package com.EncryptionMasking.Encryption_Masking.constants;
+package com.recur.EncryptionMasking.constants;
 
 public class MaskingConstant {
 

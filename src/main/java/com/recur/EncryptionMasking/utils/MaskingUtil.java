@@ -1,7 +1,7 @@
-package com.EncryptionMasking.Encryption_Masking.utils;
+package com.recur.EncryptionMasking.utils;
 
-import com.EncryptionMasking.Encryption_Masking.annotation.MaskingStrategy;
-import com.EncryptionMasking.Encryption_Masking.constants.MaskingConstant;
+import com.recur.EncryptionMasking.annotation.MaskingStrategy;
+import com.recur.EncryptionMasking.constants.MaskingConstant;
 import jakarta.servlet.http.HttpServletRequest;
 
 

@@ -1,6 +1,6 @@
-package com.EncryptionMasking.Encryption_Masking.interceptors;
+package com.recur.EncryptionMasking.interceptors;
 
-import com.EncryptionMasking.Encryption_Masking.constants.MaskingConstant;
+import com.recur.EncryptionMasking.constants.MaskingConstant;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Component;

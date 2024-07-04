@@ -1,8 +1,8 @@
-package com.EncryptionMasking.Encryption_Masking.events;
+package com.recur.EncryptionMasking.events;
 
 
-import com.EncryptionMasking.Encryption_Masking.annotation.EncryptedField;
-import com.EncryptionMasking.Encryption_Masking.utils.CryptoUtil;
+import com.recur.EncryptionMasking.annotation.EncryptedField;
+import com.recur.EncryptionMasking.utils.CryptoUtil;
 import org.springframework.data.mongodb.core.mapping.event.AbstractMongoEventListener;
 import org.springframework.data.mongodb.core.mapping.event.AfterConvertEvent;
 import org.springframework.data.mongodb.core.mapping.event.BeforeConvertEvent;
